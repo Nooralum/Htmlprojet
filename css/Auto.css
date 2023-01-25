@@ -1,0 +1,143 @@
+.divbar2{
+    width: 390px;
+    height: 130px;
+    top:50%;
+	left: 40%;
+	position: absolute;
+    background-color: #FAFAFA;
+}
+
+div#divbar{
+	top:50%;
+	left: 40%;
+	width: 390px;
+	height: 2045px;
+	position: absolute;
+	background-color: #c09d9d;
+}
+
+
+div#search{
+	position: absolute;
+	width: 1040px;
+	height: auto;
+	top: 40%;
+	left: 100px;
+	border-radius: 50px;
+}
+
+
+.formulaire .champ{
+	width: 170px;
+	height: 24px;
+
+}
+
+img#img1{
+	position: absolute;
+	left: 120px;
+	width: 50px;
+	height: 50px;
+	top: 32%;
+	left: 326px;
+}
+
+
+.sous{
+	display: none;
+	position: absolute;
+	background-color: #FDF9F9;
+	min-width: 158px;
+	z-index: 1;
+	left: 225px ;
+	top: 66% ;
+} 
+
+.sous a{
+	position: relative;
+	display: block;
+	text-decoration: none;
+	padding: 12px 16px;
+	top: 8px;
+	left: 7px;
+}
+
+
+.divbar2:hover .sous{
+	display: block;
+
+}
+
+
+
+.h{
+	width:350px;
+	left: 65px;
+    position: relative;
+	top:117px;
+	height: 128px;
+}
+
+div#devis{
+	position: absolute;
+	background-color: #D9D9D9;
+	width: 242px;
+	height: 41px;
+	text-align: center;
+	left: 18%;
+	border-radius: 10px;
+	color: #1C4AC1;
+
+}
+div#devis2{
+	position: absolute;
+	background-color: #D9D9D9;
+	width: 242px;
+	height: 41px;
+	left: 18%;
+	text-align: center;
+	border-radius: 10px;
+	color: #1C4AC1;
+}
+
+strong#str{
+	color: #1C4AC1;
+}
+
+img#img2{
+	position: absolute;
+	left: 3px;
+	width: 30px;
+	height: 25px;
+	top: 20%;
+	/* left: 326px;  */
+	
+}
+
+div#gar{
+	position: absolute;
+	background-color: #D9D9D9;
+	width: 350px;
+	height: 41px;
+	left: 1%;
+	text-align: center;
+	border-radius: 15px;
+	border-color: #BC4646;
+	margin-top: 15px;
+	color: #BC4646;
+}
+h4{
+	color: #1C4AC1;
+}
+
+div#sousc{
+	position: absolute;
+	background-color: #0F98FC;
+	width: 140px;
+	height: 30px;
+	left: 60%;
+	text-align: center;
+	border-radius: 25px; 
+}
+
+

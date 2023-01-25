@@ -1,0 +1,67 @@
+div#formu{
+      background-color: #CCC5C5;
+      width: 390px;
+      height: 900px;
+      position: absolute;
+      left: 40%;
+      top: 50%;
+}
+
+h1{
+    text-align: center;
+}
+
+#name{
+    border-radius: 15px;
+    width: 335px;
+    height: 56px;
+    position: relative;
+    left: 4%;
+
+}
+
+#prename{
+    border-radius: 15px;
+    width: 335px;
+    height: 56px;
+    position: relative;
+    left: 4%;
+}
+
+#adress{
+    border-radius: 15px;
+    width: 335px;
+    height: 56px;
+    position: relative;
+    left: 4%;
+}
+#phone{
+    border-radius: 15px;
+    width: 335px;
+    height: 56px;
+    position: relative;
+    left: 4%;
+    
+}
+#password{
+    border-radius: 15px;
+    width: 335px;
+    height: 56px;
+    position: relative;
+    left: 4%;
+}
+
+label{
+   font-weight: bold;
+   font-size: 25px;
+   position: relative;
+   left: 4%;
+}
+
+#valid{
+    border-radius: 15px;
+    width: 191px;
+    height: 48px;
+    position: relative;
+    left: 20%;
+}
