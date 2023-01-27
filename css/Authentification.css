@@ -1,0 +1,61 @@
+.div1{
+    background-color: #CCC5C5;
+    width: 390px;
+    height: 840px;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+
+}
+
+.indent{   /* faire descendre le formulaire */
+    position: relative;
+    top: 38%;
+}
+
+
+
+.phone{  /* champs telephone */
+
+    border-radius: 15px;
+    border: none;
+    width: 335px;
+    height: 56px;
+    position: relative;
+    left: 4%;
+    background-color: #D9D9D9;
+
+}
+
+.password{   /* champs password */
+    border: none;
+    border-radius: 15px;
+    width: 335px;
+    height: 56px;
+    position: relative;
+    left: 4%;
+    background-color: #D9D9D9;
+
+}
+
+.valid{   /* connexion et authentification*/
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    width: 191px;
+    height: 48px;
+    position: relative;
+    left: 26%;
+    font-weight: bold;
+}
+
+a{
+    position: relative;
+    left: 35%;
+}
+
+label{
+    position: relative;
+    left: 5%;
+    font-weight: bold;
+    font-size: 20pt;
+}

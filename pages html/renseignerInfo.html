@@ -3,15 +3,15 @@
     <head>
         <title>Renseigner informations</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="Info.css">
+        <link rel="stylesheet" href="C:\Users\vHP\Desktop\assurance\Htmlprojet\css\Info.css">
 
     </head>
     <body>
         <div id="inf">
-          <h2> Renseigner <br> vos informations</h2>
+          <h2 class="re"> Renseigner <br> vos informations</h2>
            <img src="C:\Users\vHP\Desktop\assurance\Htmlprojet\icons\arrow.png" alt="">
            <div id="rens">
-            <form action="" >
+            <form>
               <label for="name">nom</label><br><br>
               <input type="text", id="name", name="name" placeholder="Entrer votre nom"><br><br><br>
               
@@ -32,11 +32,46 @@
   
   
             </form>
-            
-           </div>
-         
 
-        </div>
+            
+           </div> <br><br>
+
+         <div id="rens1">
+            <h3 class="assu">Avez-vous déjà bénéficié d'une <br> assurance automobile</h3><br><br><br><br>
+            <form action="">
+              <input type="checkbox" id="value1" name="value1" value="oui">
+              <label for="oui">oui</label><br>
+
+              <input type="checkbox" id="value2" name="value2" value="non">
+              <label for="non">non</label>
+            
+            </form>
+            
+         </div> <br><br>
+
+         
+         <div id="rens2">
+          <h3 class="assura">Quelle garantie voulez-vous avoir ?</h3><br><br><br>
+          <form action="C:\Users\vHP\Desktop\assurance\Htmlprojet\index.html">
+            <input type="checkbox" id="value3" name="value3" value="parc">
+            <label for="oui">Parciel</label><br><br>
+
+            <input type="checkbox" id="value4" name="value4" value="moy">
+            <label for="non">moyenne</label><br><br>
+
+            <input type="checkbox" id="value5" name="value5" value="comp">
+            <label for="non">Complète</label>
+
+            <input type="Submit" value="Voir tarif" class="valid">
+          
+          </form>
+          
+       </div>
+           
+
+      </div>
+
+       
 
     </body>
     

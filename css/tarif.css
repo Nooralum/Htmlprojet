@@ -1,0 +1,159 @@
+div#choi{     /* la grande div */
+    width: 390px;
+    height: 1724px;
+    background-color: rgb(249, 246, 246);
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+
+.tar{ /* div du header */
+    background-color: #FAFAFA;
+    width: 390px;
+    height: 160px;
+}
+
+
+.im{    /* position icon */
+    position: absolute;
+    top: 3%;
+}
+
+.tarif{   /* titre */
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 25%;
+    top: 2%;
+}
+
+
+
+.simp{  /* premiere div */
+   position: absolute;
+   width: 343px;
+   height: 260px;
+   background-color: #D9D9D9;
+   left: 7%;
+
+}
+
+.enr{  /* deuxieme div */
+    position: absolute;
+    width: 343px;
+    height: 430px;
+    background-color: #D9D9D9;
+    top: 33%;
+    left: 7%;
+
+}
+
+.comp{  /* troisieme div */
+    position: absolute;
+    width: 343px;
+    height: 465px;
+    background-color: #D9D9D9;
+    top: 62%;
+    left: 7%;
+}
+
+
+h3{     /* modif des titres */
+    position: relative;
+    font-weight: bold;
+    left: 7%;
+}
+
+.im1{   /* position des check DIV1 */
+    position: relative;
+    width: 20px;
+    height: 19px;
+    top: 10%;
+    left: 7%;
+}
+
+.im2{   /* position des check DIV2 */
+    position: relative;
+    width: 20px;
+    height: 19px;
+    top: 10%;
+    left: 7%;
+    
+}
+
+.im3{  /* position des check DIV2 */
+    position: relative;
+    width: 20px;
+    height: 19px;
+    top: 10%;
+    left: 7%;
+
+     
+}
+
+.p1{     /* text pour  DIV1 */
+    position: relative;
+    top: -3%;
+    left: 15%;
+    line-height: 3%;
+}
+
+.p2{    /* text pour  DIV1 */
+    position: relative;
+    top: 3%;
+    left: 15%;
+    line-height: 3%;
+}
+
+.p3{    /* text pour  DIV1 */
+    position: relative;
+    top: 3%;
+    left: 15%;
+    line-height: 3%;
+
+}
+
+
+.lab1{   /* label prix */
+    position: relative;
+    left: 4%;
+    font-weight: bold;
+ 
+}
+
+.inp1{   /* carré prix*/
+    position: relative;
+    left: 6%;
+    background-color: #D9D9D9;
+    border-width: 1px;
+
+}
+
+.chois{    /* carré choix*/
+    position: absolute;
+    width: 105px;
+    height: 25px;
+    left: 55%;
+    top: 90%;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    border-color: #C23737;
+    border-width: 1px;
+    color: #C23737;
+}
+
+.chois1{  /* carré choix div 1*/
+    position: absolute;
+    width: 105px;
+    height: 25px;
+    left: 55%;
+    top: 82%;
+    background-color: #D9D9D9; 
+    border-radius: 10px;
+    border-color: #C23737;
+    border-width: 1px;
+    color: #C23737;
+
+}
+

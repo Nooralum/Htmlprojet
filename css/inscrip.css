@@ -58,10 +58,12 @@ label{
    left: 4%;
 }
 
-#valid{
+.valid{
     border-radius: 15px;
     width: 191px;
     height: 48px;
     position: relative;
     left: 20%;
 }
+
+

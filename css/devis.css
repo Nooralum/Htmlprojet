@@ -1,0 +1,67 @@
+.devi1{    /* la grande div */
+    width: 358px;
+    height: 925px;
+    top:50%;
+	left: 40%;
+    background-color: rgb(249, 246, 246);
+    position: absolute;
+
+}
+ 
+ 
+.dem{  /* titre demarrer devis*/
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 4%;
+
+}
+
+.i1{   /* position arrow*/
+    position: absolute;
+    top: 5%;
+}
+
+h4{
+    position: relative;
+    top: 10%;
+
+}
+
+
+
+.case{    
+    position: relative;
+   border-width: 1px;
+   width: 93px;
+   height: 63px;
+   background-color: rgb(255, 255, 255);
+   left: 4%;
+
+}
+
+.case1{    
+   position: relative;
+   border-width: 1px;
+   width: 93px;
+   height: 63px;
+   background-color: black;
+   left: 35%;
+   top: -6.76%;
+
+}
+
+.case2{    
+    position: relative;
+    border-width: 1px;
+    width: 93px;
+    height: 63px;
+    background-color: black;
+    left: 65%;
+    top: -17.57%;
+
+}
+/* mise en circu */
+.vi1{
+
+}
