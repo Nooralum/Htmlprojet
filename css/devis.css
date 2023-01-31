@@ -182,3 +182,13 @@ input{  /* div des differents inputs*/
 
 }
 
+.Moi{
+    width: 150px;
+    height: 55px;
+    position: absolute;
+    left: 50%;
+    background-color: #0F98FC;
+    top: 80%;
+    border-radius: 20px;
+}
+
