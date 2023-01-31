@@ -25,20 +25,39 @@
 h4{
     position: relative;
     top: 10%;
-
+    left: 4%;
 }
 
+::placeholder{
+    text-align: center;
+}
 
-
+  /* position des différentes cases*/
 .case{    
-    position: relative;
+position: relative;
    border-width: 1px;
    width: 93px;
    height: 63px;
    background-color: rgb(255, 255, 255);
    left: 4%;
-
 }
+
+
+
+.case:active{
+    background-color:aqua;
+    color: aqua;
+} 
+
+
+.case:focus{
+    background-color: aqua;
+}
+
+/* .case:after{
+background-color: red;
+} */
+
 
 .case1{    
    position: relative;
@@ -61,3 +80,105 @@ h4{
     top: -17.57%;
 
 }
+
+
+
+.date{   /* div de la date */
+    position: relative;
+    width: 337px;
+    height: 114px;
+    background-color: #EFEAEA;
+    border-radius: 20px;
+    left: 4%;
+    top: -23%;
+}
+
+
+
+.val{ /* pour la valeur du véhicule */
+    position: relative;
+    width: 337px;
+    height: 114px;
+    background-color: #EFEAEA;
+    border-radius: 20px;
+    left: 4%;
+    top: -24%;
+
+}
+
+.imm{  /* pour l'immatriculation */
+    position: relative;
+    width: 337px;
+    height: 114px;
+    background-color: #EFEAEA;
+    border-radius: 20px;
+    left: 4%;
+    top: -25%;
+}
+
+    /* position des sous Car; bus; camion*/
+   
+.Ca{   
+    position: relative;
+    top: -18%;
+    left: 12%;
+
+}
+
+.Bu{
+    position: relative;
+    top: -21.55%;
+    left: 42%;
+
+}
+
+.Cam{
+    position: relative;
+    top: -25%;
+    left: 71%;
+
+}
+
+label{   /* div des differents label*/
+    position: relative;
+    top: 17%;
+    left: 4%;
+}
+
+input{  /* div des differents inputs*/
+    position: relative;
+    top: 30%;
+    left: 4%;
+    width: 305px;
+    height: 33px;
+}
+
+.car{   /* position de l'icon car */
+    position: relative;
+    width: 53px;
+    left: 20%;
+    top: 5%;
+}
+
+.bus{ /* position de l'icon bus*/
+    position: relative;
+    width: 53px;
+    left: 20%;
+    top: 5%;
+
+}
+
+.camion{   /* position de l'icon camion*/
+    position: relative;
+    width: 53px;
+    left: 20%;
+    top: 5%;
+}
+
+.calendar{
+    position: relative;
+    width: 23px;
+    left: 85%;
+
+}
+

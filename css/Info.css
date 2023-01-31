@@ -125,14 +125,15 @@ div#rens2{  /* troisième div */
    
 
 
-.valid{
+.valid{   /* bouton voir tarif*/
     width: 150px;
     height: 55px;
     position: absolute;
     left: 50%;
     background-color: #0F98FC;
     top: 105%;
-    border-radius: 10%;
+    border-radius: 20px;
+    
 }
    
 .lien{   /* mise en style du bouton */
