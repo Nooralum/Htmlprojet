@@ -1,10 +1,11 @@
 div#inf{   /* la grande div */
-    width: 358px;
+    width: 390px;
     height: 1557px;
     top:50%;
 	left: 40%;
     background-color: rgb(249, 246, 246);
     position: absolute;
+   
 }
 
   
@@ -12,7 +13,7 @@ div#inf{   /* la grande div */
     text-align: center;
     position: absolute;
     left: 25%;
-    top: 1%;
+    top: -0%;
 }
    
 img{  /* position icon */
@@ -24,32 +25,38 @@ img{  /* position icon */
 div#rens{     /* la div de renseignement */
     background-color: #EFEAEA;
     border-radius: 20px;
-    width: 340px;
-    height: 688px;
+    width: 355px;
+    height: 700px;
     position: relative;
-    left: 3%;
+    left: 5%;
     top: 7%;
-
 
 }
 
+form{
+    position: relative;
+    top: 2%;
+}
+
 #name{
-   
-    width: 270px;
+    background-color: #EFEAEA;
+    width: 290px;
     height: 35px;
     position: relative;
     left: 8%;
 }
 
 #prename{
-    width: 270px;
+    background-color: #EFEAEA;
+    width: 290px;
     height: 35px;
     position: relative;
     left: 8%;
 }
 
 #âge{
-    width: 270px;
+    background-color: #EFEAEA;
+    width: 290px;
     height: 35px;
     position: relative;
     left: 8%;
@@ -57,7 +64,8 @@ div#rens{     /* la div de renseignement */
 }
 
 #ville{
-    width: 270px;
+    background-color: #EFEAEA;
+    width: 290px;
     height: 35px;
     position: relative;
     left: 8%;
@@ -65,7 +73,8 @@ div#rens{     /* la div de renseignement */
 }
 
 #mail{
-    width: 270px;
+    background-color: #EFEAEA;
+    width: 290px;
     height: 35px;
     position: relative;
     left: 8%;
@@ -73,10 +82,31 @@ div#rens{     /* la div de renseignement */
 }
 
 #phone{
-    width: 270px;
+    background-color: #EFEAEA;
+    width: 290px;
     height: 35px;
     position: relative;
     left: 8%;
+}
+
+::placeholder{
+    text-align: center;
+    color: black;
+}
+
+
+
+.cal{ /* position du calendrier */
+    position: absolute;
+    width: 25px;
+    left: 290px;
+    top: 40%;
+    
+}
+
+input{
+    position: relative;
+    left: 5%;
 }
 
 label{  
@@ -91,10 +121,10 @@ label{
 div#rens1{   /* deuxieme div */
     background-color: #EFEAEA;
     border-radius: 20px;
-    width: 340px;
+    width: 355px;
     height: 130px;
     position: relative;
-    left: 3%;
+    left: 5%;
     top: 7%;
 }
 
@@ -102,25 +132,32 @@ div#rens1{   /* deuxieme div */
 
 .assu{  /* titre deuxieme div */
     position: absolute;
-    left: 2%;
+    left: 7%;
     top: -8%;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
 }
 
   
 div#rens2{  /* troisième div */
     background-color: #EFEAEA;
     border-radius: 20px;
-    width: 340px;
+    width: 355px;
     height: 200px;
     position: relative;
-    left: 3%;
+    left: 5%;
     top: 7%;
+
 }
    
 .assura{     /* titre troisieme div */
     position: absolute;
-    left: 2%;
-    top: -8%;
+    left: 7%;
+    top: -3%;
+    font-size: 20px;
+    font-weight: bold;
 }
    
 
@@ -131,8 +168,10 @@ div#rens2{  /* troisième div */
     position: absolute;
     left: 50%;
     background-color: #0F98FC;
-    top: 105%;
+    top: 175%;
     border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
     
 }
    

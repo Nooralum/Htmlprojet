@@ -1,4 +1,3 @@
-
 .divbar2{
     width: 390px;
     height: 130px;
@@ -79,7 +78,8 @@ img#img1{
 	height: 128px;
 }
 
-div#devis{
+
+#devis{   /* div de dem un devis */
 	position: absolute;
 	background-color: #D9D9D9;
 	width: 242px;
@@ -90,7 +90,13 @@ div#devis{
 	color: #1C4AC1;
 
 }
-div#devis2{
+
+.devs{  /* bien positionner demm un devis */
+	position: relative;
+	bottom: 5px;
+}
+
+div#devis2{  /* div de Nous contacter */
 	position: absolute;
 	background-color: #D9D9D9;
 	width: 242px;
@@ -99,6 +105,11 @@ div#devis2{
 	text-align: center;
 	border-radius: 10px;
 	color: #1C4AC1;
+}
+
+.pizza{
+	position: relative;
+	bottom: 5px;
 }
 
 strong#str{
@@ -115,7 +126,7 @@ img#img2{
 	
 }
 
-div#gar{
+div#gar{   /* la div de texte */
 	position: absolute;
 	background-color: #D9D9D9;
 	width: 350px;
@@ -148,5 +159,13 @@ img#scrol{
 	top: 70px;
 	left: 5%;
 	position:relative;
-	
+}
+
+
+.calcul{
+	position: relative;
+	width: 30px;
+	top: -45px;
+	right: 100px;
+
 }
