@@ -4,7 +4,8 @@
     top:50%;
 	left: 40%;
     background-color: rgb(249, 246, 246);
-    position: absolute;
+    position: relative;
+    border-radius: 40px;
 
 }
  
@@ -68,6 +69,10 @@ position: relative;
 
 }
 
+.case1:active{
+    background-color:bisque;
+} 
+
 .case2{    
     position: relative;
     border-width: 1px;
@@ -78,6 +83,10 @@ position: relative;
     top: -17.57%;
 
 }
+
+.case2:active{
+    background-color:bisque;
+} 
 
 
 
@@ -114,8 +123,7 @@ position: relative;
     top: -25%;
 }
 
-    /* position des sous Car; bus; camion*/
-   
+    /* position des sous Car; bus; camion*/ 
 .Ca{   
     position: relative;
     top: -18%;
@@ -183,10 +191,10 @@ input{  /* div des differents inputs*/
 
 
 .Moi{  /* pour le boutton demarrer */
-    width: 150px;
+    width: 140px;
     height: 55px;
     position: absolute;
-    left: 50%;
+    left: 60%;
     background-color: #0F98FC;
     top: 83%;
     font-weight: bold;
@@ -194,5 +202,20 @@ input{  /* div des differents inputs*/
     border-radius: 5px;
     border-width: 1px;
 
+}
+
+.ret{
+
+    width: 140px;
+    height: 55px;
+    position: absolute;
+    left: 5%;
+    background-color: #0F98FC;
+    top: 83%;
+    font-weight: bold;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    
 }
 

@@ -2,9 +2,10 @@ div#choi{     /* la grande div */
     width: 390px;
     height: 1724px;
     background-color: rgb(249, 246, 246);
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 40%;
+    border-radius: 40px;
 }
 
 
@@ -155,5 +156,20 @@ h3{     /* modif des titres */
     border-width: 1px;
     color: #C23737;
 
+}
+
+.retou{
+    position: absolute;
+    width: 124px;
+    height: 37px;
+    left: 10%;
+    top: 92%;
+    background-color: #0F98FC;
+    border-radius: 10px;
+    border-color: #0E1C9C;
+    border-width: 1px;
+    color: black;
+    font-size: 24px;
+    font-style: italic;
 }
 
